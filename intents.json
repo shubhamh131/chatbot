@@ -1,0 +1,405 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Good afternoon",
+        "Hola",
+        "Namaste",
+        "What's up",
+        "Howdy",
+        "Greetings",
+        "Sup",
+        "Hi there",
+        "Hello there",
+        "Hey there"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! I'm Glitch, your virtual assistant. What would you like to know about our institute?",
+        "Hey! Welcome! What information can I help you find?",
+        "Good day! How may I help you with your queries about the institute?"
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "How can I get admission?",
+        "What is the admission process?",
+        "Admission details",
+        "How to apply",
+        "Application process",
+        "Admission requirements",
+        "Eligibility criteria",
+        "When do admissions open",
+        "Admission form",
+        "How to enroll",
+        "Registration process",
+        "Admission procedure",
+        "How do I join",
+        "Entrance exam",
+        "Merit list",
+        "Admission last date",
+        "Application deadline",
+        "Documents required for admission",
+        "Admission criteria",
+        "Selection process"
+      ],
+      "responses": [
+        "Admissions are open! You can apply online through our website or visit the admission office. The process includes document verification and merit-based selection.",
+        "To get admission, visit our website at https://www.agpit.edu.in/ for the online application form. You can also visit our admission office for direct assistance.",
+        "The admission process is simple: Fill the application form → Submit required documents → Merit list will be published → Complete the admission formalities.",
+        "For admission details including eligibility criteria, required documents, and deadlines, please check our official website or contact our admission office."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses are offered?",
+        "List of courses available?",
+        "Do you offer engineering courses?",
+        "courses",
+        "programs",
+        "What can I study here",
+        "Available streams",
+        "Branches offered",
+        "Engineering courses",
+        "Diploma courses",
+        "B.Tech courses",
+        "What subjects",
+        "Course duration",
+        "Specializations",
+        "Which branch is best",
+        "Computer engineering",
+        "Mechanical engineering",
+        "Civil engineering",
+        "Electrical engineering",
+        "IT courses",
+        "What programs do you have",
+        "Course details",
+        "Syllabus",
+        "Curriculum"
+      ],
+      "responses": [
+        "We offer B.Tech and various diploma programs including Computer Engineering, Mechanical Engineering, Civil Engineering, and Electrical Engineering. Visit https://www.agpit.edu.in/ for detailed course information.",
+        "Our institute provides quality engineering education with B.Tech (4 years) and Diploma (3 years) programs in multiple branches. Check our website for complete course details and syllabus.",
+        "Available courses: B.Tech & Diploma in Computer, Mechanical, Civil, and Electrical Engineering. Each program is designed with industry-relevant curriculum.",
+        "We have comprehensive engineering programs. For detailed course structure, fee, and admission requirements, visit our website at https://www.agpit.edu.in/"
+      ]
+    },
+    {
+      "tag": "faculty",
+      "patterns": [
+        "Tell me about the faculty",
+        "Who are the professors?",
+        "Faculty details",
+        "Teaching staff",
+        "Faculty members",
+        "About teachers",
+        "Professors list",
+        "Faculty qualifications",
+        "Experienced faculty",
+        "Faculty profile",
+        "Who teaches here",
+        "Teacher details",
+        "Academic staff",
+        "Faculty experience"
+      ],
+      "responses": [
+        "We have highly experienced faculty members from reputed institutions with excellent academic and industry backgrounds. Check our website for detailed faculty profiles at https://www.agpit.edu.in/",
+        "Our faculty consists of qualified professors, associate professors, and assistant professors with Ph.D. and M.Tech degrees. They bring both academic excellence and industry experience.",
+        "The institute boasts of experienced teaching staff committed to quality education. Visit our website to view individual faculty profiles and their qualifications.",
+        "Our faculty members are well-qualified professionals dedicated to student success. For complete faculty information, please visit https://www.agpit.edu.in/"
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "What is the fee structure?",
+        "Tell me about tuition fees",
+        "Fee details",
+        "How much does it cost",
+        "Fees per year",
+        "Total fees",
+        "Admission fees",
+        "Course fees",
+        "Fee payment",
+        "Installments",
+        "Scholarship",
+        "Fee structure",
+        "Annual fees",
+        "Semester fees",
+        "Hostel fees",
+        "Is fee affordable",
+        "Fee concession",
+        "Financial aid",
+        "Fee schedule",
+        "Payment options"
+      ],
+      "responses": [
+        "The fee structure varies by course and is quite reasonable. Please visit our official website or contact the accounts department for detailed fee information and payment options.",
+        "We offer competitive fee structure for all courses. For specific fee details, installment options, and scholarship information, please contact our accounts office.",
+        "Fee structure depends on the program you choose. We also provide various scholarship opportunities. Visit our website or call +91-9765631696 for detailed information.",
+        "Our institute offers affordable quality education. For complete fee breakdown, payment schedule, and available scholarships, please check with our accounts department."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact the institute?",
+        "What is your phone number?",
+        "Institute address",
+        "Contact details",
+        "Phone number",
+        "Email",
+        "Where are you located",
+        "Address",
+        "How to reach",
+        "Location",
+        "Contact information",
+        "Office timings",
+        "Visit the institute",
+        "Directions",
+        "Campus address",
+        "Contact us"
+      ],
+      "responses": [
+        "You can reach us at +91-9765631696 or visit our campus at Vijapur Road, Jule Solapur. We're here to help you!",
+        "Contact Information: Phone: +91-9765631696, Address: Vijapur Road, Jule Solapur, Website: https://www.agpit.edu.in/",
+        "Feel free to contact us at +91-9765631696 for any queries. You can also visit our campus at Vijapur Road, Jule Solapur during office hours.",
+        "Get in touch with us: Phone: +91-9765631696, Location: Vijapur Road, Jule Solapur, Website: https://www.agpit.edu.in/"
+      ]
+    },
+    {
+      "tag": "introduction",
+      "patterns": [
+        "Who are you?",
+        "Tell me about yourself",
+        "What is your name?",
+        "Introduce yourself",
+        "What are you",
+        "About you",
+        "Your introduction",
+        "What do you do",
+        "Are you a bot",
+        "What is your purpose",
+        "Why are you here",
+        "Your role",
+        "Bot introduction"
+      ],
+      "responses": [
+        "Hello! I am Glitch, your virtual assistant for the institute. I can help you with information about courses, fees, admissions, faculty, events, and much more. Ask me anything!",
+        "Hey there! I'm Glitch, your AI-powered chatbot designed to assist students and parents with institute-related queries. I'm here to make your information search easier!",
+        "Hi! I'm Glitch, your smart digital assistant! I can provide details about admissions, courses, faculty, fees, and everything about our institute. How can I help you today?",
+        "Greetings! I am Glitch, your friendly virtual guide. I'm programmed to answer your questions about the institute and help you find the information you need quickly and easily!"
+      ]
+    },
+    {
+      "tag": "random",
+      "patterns": [
+        "yes go ahead",
+        "yes you can",
+        "then tell me",
+        "continue",
+        "go on",
+        "tell me more",
+        "what else",
+        "more information",
+        "elaborate",
+        "yes please",
+        "sure",
+        "okay",
+        "alright"
+      ],
+      "responses": [
+        "Great! What specific information would you like to know about? I can help with: Admission process, Course details, Faculty information, Fee structure, Contact details. Feel free to ask me anything!",
+        "Perfect! I'm here to help. You can ask me about admissions, courses, fees, faculty, campus facilities, events, or any other institute-related queries. What interests you most?",
+        "Awesome! What would you like to explore? I have information about our programs, admission process, faculty, infrastructure, and more. Just let me know what you're curious about!"
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What facilities do you have",
+        "Campus facilities",
+        "Infrastructure",
+        "Labs",
+        "Library",
+        "Hostel",
+        "Canteen",
+        "Sports",
+        "Playground",
+        "Computer lab",
+        "Workshop",
+        "Laboratories",
+        "Wifi",
+        "Transport",
+        "Accommodation"
+      ],
+      "responses": [
+        "Our institute provides excellent facilities including well-equipped labs, library, computer center, workshops, sports facilities, and more. For detailed infrastructure information, visit https://www.agpit.edu.in/",
+        "We have modern infrastructure with state-of-the-art laboratories, digital library, hostel accommodation, sports complex, and student-friendly environment to support your learning journey.",
+        "Campus facilities include: Modern labs, Well-stocked library, Computer center, Workshop facilities, Sports ground, and canteen. Visit our website for more details!"
+      ]
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "Placement",
+        "Job opportunities",
+        "Companies",
+        "Career",
+        "Employment",
+        "Placement record",
+        "Which companies visit",
+        "Job assistance",
+        "Internships",
+        "Placement cell",
+        "Career guidance",
+        "Job placement",
+        "Recruitment"
+      ],
+      "responses": [
+        "Our institute has a dedicated placement cell that works closely with various companies for student placements. We provide career guidance and job assistance to help students secure good opportunities.",
+        "We maintain good placement records with tie-ups with various industries. Our placement cell conducts training sessions, mock interviews, and coordinates with companies for recruitment drives.",
+        "The institute focuses on overall personality development and provides placement assistance. For detailed placement statistics and company partnerships, please contact our placement cell."
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "Events",
+        "Cultural activities",
+        "Technical events",
+        "Festivals",
+        "Competitions",
+        "Annual function",
+        "Tech fest",
+        "Cultural fest",
+        "Activities",
+        "Programs"
+      ],
+      "responses": [
+        "We organize various technical and cultural events throughout the year including tech fests, cultural programs, competitions, and workshops to enhance student skills and engagement.",
+        "Our institute hosts annual technical festivals, cultural events, guest lectures, workshops, and competitions. These events provide excellent opportunities for learning and networking.",
+        "Students can participate in numerous events like technical competitions, cultural shows, sports meets, and educational workshops. Stay tuned to our website for upcoming events!"
+      ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot",
+        "Thank you so much",
+        "Appreciate it",
+        "Thanks for the help",
+        "Helpful",
+        "Great help",
+        "Perfect"
+      ],
+      "responses": [
+        "You're welcome! Happy to help! If you have any more questions, feel free to ask.",
+        "Glad I could help! Is there anything else you'd like to know about the institute?",
+        "You're most welcome! That's what I'm here for. Any other queries?",
+        "Anytime! I'm here to assist you. Don't hesitate to ask if you need more information!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Take care",
+        "See you soon",
+        "Catch you later",
+        "Have a good day",
+        "Until next time",
+        "Farewell"
+      ],
+      "responses": [
+        "Goodbye! Have a great day! Feel free to return anytime you have questions about the institute.",
+        "See you soon! Take care and best of luck with your educational journey!",
+        "Farewell! Don't hesitate to come back if you need any more information. Have a wonderful day!",
+        "Take care! Remember, I'm always here to help with your institute-related queries. Goodbye!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help",
+        "Can you help me",
+        "I need help",
+        "What can you do",
+        "How can you help",
+        "Support",
+        "Assist me",
+        "I'm confused",
+        "Guide me",
+        "What are your capabilities"
+      ],
+      "responses": [
+        "I'm here to help! I can provide information about: Admissions & Application process, Courses & Programs, Fee structure & Payment, Faculty & Staff, Campus facilities, Contact details. What would you like to know?",
+        "Of course! I'm designed to assist you with all institute-related queries. Just ask me about admissions, courses, fees, faculty, or any other information you need!",
+        "I'd be happy to help! I can answer questions about our institute, guide you through the admission process, provide course details, and much more. What specific information are you looking for?"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is the institute",
+        "Location",
+        "How to reach",
+        "Directions",
+        "Address",
+        "Map",
+        "Route",
+        "Distance",
+        "Nearby",
+        "Transportation"
+      ],
+      "responses": [
+        "We're located at Vijapur Road, Jule Solapur. You can easily reach us by local transport. For detailed directions, call us at +91-9765631696.",
+        "Our institute is situated at Vijapur Road, Jule Solapur. It's well-connected by road and accessible through various modes of transport.",
+        "Address: Vijapur Road, Jule Solapur. For specific directions and route guidance, please contact us at +91-9765631696."
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [
+        "I don't understand",
+        "What",
+        "Huh",
+        "Come again",
+        "Pardon",
+        "Can you repeat",
+        "I didn't get that",
+        "What do you mean",
+        "Unclear",
+        "Confusing"
+      ],
+      "responses": [
+        "I'm sorry, I didn't quite understand that. Could you please rephrase your question? I'm here to help with institute-related queries!",
+        "Could you please clarify what you're asking about? I can help with information about admissions, courses, fees, faculty, and more!",
+        "I'm not sure I follow. Can you ask that in a different way? I'm designed to help with institute information and queries."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I'm not sure how to respond to that specific query, but I can help you with information about our institute! Try asking about admissions, courses, fees, or faculty.",
+        "That's an interesting question, but I specialize in institute-related information. Is there something about our courses, admissions, or facilities you'd like to know?",
+        "I don't have information about that particular topic, but I'm here to help with institute queries. What would you like to know about our programs or services?",
+        "I might not understand that completely, but I'm great at answering questions about the institute! Feel free to ask about admissions, courses, faculty, or contact information."
+      ]
+    }
+  ]
+}
